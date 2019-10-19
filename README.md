@@ -47,15 +47,6 @@ var random = new Ransize('random',
 random.apply()
 ```
 ![random5](./img/random5.png)
-```css
-#random {
-    display: flex;
-    justify-content: baseline;
-}
-.random {
-    letter-spacing: 5px;
-}
-```
 ```js
 var random = new Ransize('random',
 {
@@ -64,6 +55,15 @@ var random = new Ransize('random',
     class: 'random'
 })
 random.apply()
+```
+```css
+#random {
+    display: flex;
+    justify-content: baseline;
+}
+.random {
+    letter-spacing: 5px;
+}
 ```
 ![random6](./img/random6.png)
 
