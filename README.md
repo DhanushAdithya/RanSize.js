@@ -1,13 +1,13 @@
 # RanSize.js
 ### A wacky library for some wacky coders 
 
-# RanSize.js - What is this?
+## RanSize.js - What is this?
 ### This is a library is assigns random font-size to each letter in the given block that contains text in it
 
-# RanSize.js - How to use this?
+## RanSize.js - How to use this?
 - You can download directly from this repository 
 
-# RanSize.js - Examples
+## RanSize.js - Examples
 ### Here are few examples of this library
 ```js
 var random = new RanSize('random')
@@ -69,6 +69,6 @@ random.apply()
 
 ### You can use everthing in a single object too<br>Or you can create an object seperately and specify it as the arguement
 
-# Thanks,
+## Thanks,
 [![NoxFly](https://avatars2.githubusercontent.com/u/32705400?s=88&v=4)](https://github.com/NoxFly)
 [![NoxFly](https://avatars2.githubusercontent.com/u/35851048?s=88&v=4)](https://github.com/Dob6458)
