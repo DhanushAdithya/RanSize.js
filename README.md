@@ -70,5 +70,5 @@ random.apply()
 You can use everything in a single object too <br>Or you can create an object seperately and specify it as the arguement
 
 ## Thanks,
-[![NoxFly](https://avatars2.githubusercontent.com/u/32705400?s=78&v=4)](https://github.com/NoxFly)
-[![NoxFly](https://avatars2.githubusercontent.com/u/35851048?s=78&v=4)](https://github.com/Dob6458)
+[![NoxFly](https://avatars2.githubusercontent.com/u/32705400?s=73&v=4)](https://github.com/NoxFly)
+[![NoxFly](https://avatars2.githubusercontent.com/u/35851048?s=73&v=4)](https://github.com/Dob6458)
