@@ -6,6 +6,9 @@ This is a library is assigns random font-size to each letter in the given block 
 
 ## RanSize.js - How to use this?
 - You can download directly from this repository 
+- Or else you can you these CDN
+    - Normal Version   : https://cdn.jsdelivr.net/gh/DhanushAdithya/RanSize.js/lib/ransize.js
+    - Minified Version : https://cdn.jsdelivr.net/gh/DhanushAdithya/RanSize.js/lib/ransize.min.js
 
 ## RanSize.js - Examples
 Here are few examples of this library
