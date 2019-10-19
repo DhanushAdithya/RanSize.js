@@ -1,5 +1,5 @@
 # RanSize.js
-### A wacky library for some wacky coders 
+#### A wacky library for some wacky coders 
 
 ## RanSize.js - What is this?
 This is a library is assigns random font-size to each letter in the given block that contains text in it
