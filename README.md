@@ -46,7 +46,7 @@ random.apply()
 var random = new Ransize('random',
 {
     pattern: true,
-    values: [2, 1.7, 1.3, 1, 1.3, 1.7]
+    value: [2, 1.7, 1.3, 1, 1.3, 1.7]
 })
 random.apply()
 ```
@@ -55,7 +55,7 @@ random.apply()
 var random = new Ransize('random',
 {
     pattern: true,
-    values: [2, 1.7, 1.3, 1, 1.3, 1.7],
+    value: [2, 1.7, 1.3, 1, 1.3, 1.7],
     class: 'random'
 })
 random.apply()
