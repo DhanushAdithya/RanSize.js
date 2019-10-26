@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif&display=swap");
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: orangered;
+  z-index: 100;
+}
+
+header img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+header .heading {
+  font-family: 'Noto Serif', serif;
+  font-weight: normal;
+  padding: 5px 5px 5px 0;
+  font-size: 1.7em;
+  margin-top: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+header .ham {
+  width: 28px;
+  height: 25px;
+  display: none;
+}
+
+header .ham .bar1 {
+  width: 27px;
+  height: 3px;
+  background-color: black;
+}
+
+header .ham .forbar1 {
+  -webkit-animation: anim2 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+          animation: anim2 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+header .ham .bar2 {
+  width: 27px;
+  height: 3px;
+  background-color: black;
+}
+
+header .ham .forbar2 {
+  -webkit-animation: anim3 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+          animation: anim3 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+header .ham .bar3 {
+  width: 27px;
+  height: 3px;
+  background-color: black;
+}
+
+header .ham .forbar3 {
+  -webkit-animation: anim1 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+          animation: anim1 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@-webkit-keyframes anim1 {
+  100% {
+    -webkit-transform: rotate(-45deg) translate(5px, -5.7px);
+            transform: rotate(-45deg) translate(5px, -5.7px);
+  }
+}
+
+@keyframes anim1 {
+  100% {
+    -webkit-transform: rotate(-45deg) translate(5px, -5.7px);
+            transform: rotate(-45deg) translate(5px, -5.7px);
+  }
+}
+
+@-webkit-keyframes anim3 {
+  100% {
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+  }
+}
+
+@keyframes anim3 {
+  100% {
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+  }
+}
+
+@-webkit-keyframes anim2 {
+  100% {
+    -webkit-transform: rotate(45deg) translate(6px, 6px);
+            transform: rotate(45deg) translate(6px, 6px);
+  }
+}
+
+@keyframes anim2 {
+  100% {
+    -webkit-transform: rotate(45deg) translate(6px, 6px);
+            transform: rotate(45deg) translate(6px, 6px);
+  }
+}
+
+header nav {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: auto;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header nav ul li {
+  padding: 15px 15px;
+  list-style-type: none;
+  background-color: rebeccapurple;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header nav ul li a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header nav ul li a:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+header nav ul li:hover {
+  background-color: orangered;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0 20px 0;
+  margin: 0 0 10px 0;
+  background-color: peachpuff;
+}
+
+.container .code {
+  width: 40%;
+  height: 100%;
+}
+
+.container .result {
+  width: 45%;
+  margin-left: 20px;
+}
+
+.container .result .random {
+  font-family: 'Raleway', sans-serif;
+  color: crimson;
+  mix-blend-mode: difference;
+}
+
+.container .result .all {
+  mix-blend-mode: difference;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: saddlebrown;
+  font-size: 1.05em;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer .copy {
+  margin-right: auto;
+  padding: 5px 10px;
+}
+
+footer .follow {
+  margin-left: auto;
+}
+
+footer .follow ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .follow ul li {
+  list-style-type: none;
+  padding: 5px 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 7px;
+  margin: 0 5px;
+}
+
+footer .follow ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+}
+
+footer .follow ul li a:hover {
+  color: saddlebrown;
+  font-weight: bolder;
+}
+
+footer .follow ul li:hover {
+  background-color: sandybrown;
+}
+
+@media (max-width: 900px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 0 20px 0;
+    margin: 0 0 10px 0;
+    background-color: peachpuff;
+  }
+  .container .code {
+    width: 85%;
+  }
+  .container .result {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 622px) {
+  header img {
+    z-index: 11;
+  }
+  header .heading {
+    z-index: 10;
+  }
+  header .ham {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 30px;
+    margin-left: auto;
+    z-index: 9;
+  }
+  header .open {
+    -webkit-animation: open 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+            animation: open 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+  }
+  @-webkit-keyframes open {
+    100% {
+      left: 0;
+      top: 0;
+    }
+  }
+  @keyframes open {
+    100% {
+      left: 0;
+      top: 0;
+    }
+  }
+  header .nav {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: orangered;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: -110%;
+    z-index: 8;
+  }
+  header .nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  header .nav ul li {
+    text-align: center;
+    margin: 10px 0;
+    background-color: orangered;
+  }
+  header .nav ul li:hover {
+    background-color: #e73e00;
+    -webkit-box-shadow: inset 0 0 10px 0px #7a2000;
+            box-shadow: inset 0 0 10px 0px #7a2000;
+  }
+  header .nav ul li a {
+    padding: 5px 80px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

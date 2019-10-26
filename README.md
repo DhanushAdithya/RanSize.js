@@ -14,51 +14,45 @@ This is a library is assigns random font-size to each letter in the given block 
 ## RanSize.js - Examples
 Here are few examples of this library
 ```js
-var random = new RanSize('random')
-random.apply()
+var random = new RanSize('random').apply();
 ```
 ![random1](./img/random1.png)
 ```js
-var random = new Ransize('random',
+var random = new RanSize('random',
 {
     colors: true
-})
-random.apply()
+}).apply();
 ```
 ![random2](./img/random2.png)
 ```js
-var random = new Ransize('random',
+var random = new RanSize('random',
 {
     min: 0.5
-})
-random.apply()
+}).apply();
 ```
 ![random3](./img/random3.png)
 ```js
-var random = new Ransize('random',
+var random = new RanSize('random',
 {
     max: 3
-})
-random.apply()
+}).apply();
 ```
 ![random4](./img/random4.png)
 ```js
-var random = new Ransize('random',
+var random = new RanSize('random',
 {
     pattern: true,
     value: [2, 1.7, 1.3, 1, 1.3, 1.7]
-})
-random.apply()
+}).apply();
 ```
 ![random5](./img/random5.png)
 ```js
-var random = new Ransize('random',
+var random = new RanSize('random',
 {
     pattern: true,
     value: [2, 1.7, 1.3, 1, 1.3, 1.7],
     class: 'random'
-})
-random.apply()
+}).apply();
 ```
 ```css
 #random {
@@ -70,6 +64,12 @@ random.apply()
 }
 ```
 ![random6](./img/random6.png)
+```js
+var random = new RanSize('random', {
+    rotate: true
+}).apply();
+```
+![random7](./img/random7.png)
 
 You can use everything in a single object too <br>Or you can create an object seperately and specify it as the arguement
 
