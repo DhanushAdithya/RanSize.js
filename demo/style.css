@@ -8,6 +8,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 header {
@@ -257,7 +258,7 @@ footer .follow ul li {
 footer .follow ul li a {
   text-decoration: none;
   color: white;
-  padding: 10px 10px;
+  padding: 10px;
 }
 
 footer .follow ul li a:hover {
@@ -376,6 +377,15 @@ footer .follow ul li:hover {
   }
   header .nav ul li a {
     padding: 5px 80px;
+  }
+  footer {
+    font-size: 0.9em;
+  }
+  footer .follow ul li {
+    padding: 3px;
+  }
+  footer .follow ul li a {
+    padding: 3px;
   }
 }
 /*# sourceMappingURL=style.css.map */
