@@ -16,7 +16,7 @@ header {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: orangered;
+    background-color: rgb(255, 102, 46);
     z-index: 100;
 
     img {
@@ -116,7 +116,7 @@ header {
                 }
 
                 &:hover {
-                    background-color: orangered;
+                    background-color: rgb(255, 102, 46);
                 }
             }
         }
@@ -160,7 +160,7 @@ footer {
     align-items: center;
     padding: 10px;
     flex-direction: column;
-    background-color: saddlebrown;
+    background-color: sienna;
     font-size: 1.05em;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -178,9 +178,9 @@ footer {
 
             li {
                 list-style-type: none;
-                padding: 5px 10px;
+                padding: 10px 10px;
                 transition: 0.5s;
-                border-radius: 7px;
+                border-radius: 5px;
                 margin: 0 5px;
 
                 a {
@@ -189,7 +189,7 @@ footer {
                     padding: 10px;
 
                     &:hover {
-                        color: saddlebrown;
+                        color: sienna;
                         font-weight: bolder;
                     }
                 }
@@ -263,7 +263,7 @@ footer {
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            background-color: orangered;
+            background-color: rgb(255, 102, 46);
             height: 100vh;
             width: 100vw;
             top: 0;
@@ -277,7 +277,7 @@ footer {
                 li {
                     text-align: center;
                     margin: 10px 0;
-                    background-color: orangered;
+                    background-color: rgb(255, 102, 46);
 
                     &:hover {
                         background-color: rgb(231, 62, 0);

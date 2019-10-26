@@ -22,7 +22,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: orangered;
+  background-color: #ff662e;
   z-index: 100;
 }
 
@@ -163,7 +163,7 @@ header nav ul li a:hover {
 }
 
 header nav ul li:hover {
-  background-color: orangered;
+  background-color: #ff662e;
 }
 
 .container {
@@ -221,7 +221,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: saddlebrown;
+  background-color: sienna;
   font-size: 1.05em;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
@@ -248,10 +248,10 @@ footer .follow ul {
 
 footer .follow ul li {
   list-style-type: none;
-  padding: 5px 10px;
+  padding: 10px 10px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border-radius: 7px;
+  border-radius: 5px;
   margin: 0 5px;
 }
 
@@ -262,7 +262,7 @@ footer .follow ul li a {
 }
 
 footer .follow ul li a:hover {
-  color: saddlebrown;
+  color: sienna;
   font-weight: bolder;
 }
 
@@ -351,7 +351,7 @@ footer .follow ul li:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: orangered;
+    background-color: #ff662e;
     height: 100vh;
     width: 100vw;
     top: 0;
@@ -368,7 +368,7 @@ footer .follow ul li:hover {
   header .nav ul li {
     text-align: center;
     margin: 10px 0;
-    background-color: orangered;
+    background-color: #ff662e;
   }
   header .nav ul li:hover {
     background-color: #e73e00;
