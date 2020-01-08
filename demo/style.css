@@ -86,15 +86,15 @@ header .ham .forbar3 {
 
 @-webkit-keyframes anim1 {
   100% {
-    -webkit-transform: rotate(-45deg) translate(5px, -5.7px);
-            transform: rotate(-45deg) translate(5px, -5.7px);
+    -webkit-transform: rotate(-45deg) translate(5.6px, -6px);
+            transform: rotate(-45deg) translate(5.6px, -6px);
   }
 }
 
 @keyframes anim1 {
   100% {
-    -webkit-transform: rotate(-45deg) translate(5px, -5.7px);
-            transform: rotate(-45deg) translate(5px, -5.7px);
+    -webkit-transform: rotate(-45deg) translate(5.6px, -6px);
+            transform: rotate(-45deg) translate(5.6px, -6px);
   }
 }
 
