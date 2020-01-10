@@ -9,7 +9,11 @@ var random3 = new RanSize('size3', {
 }).apply();
 
 var random4 = new RanSize('size4', {
-    colors: true
+    colors: 'random'
+}).apply();
+
+var random9 = new RanSize('size9', {
+    colors: ['red', 'blue']
 }).apply();
 
 var random5 = new RanSize('size5', {
@@ -31,7 +35,7 @@ var random8 = new RanSize('size8', {
     max: 2.5,
     pattern: true,
     value: [2.5, 1.5],
-    colors: true,
+    colors: 'random',
     rotate: true,
     class: 'all'
 }).apply();

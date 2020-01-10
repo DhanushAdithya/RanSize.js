@@ -59,7 +59,7 @@
 		<div class="code">
 			<pre><code class="language-js line-numbers">var random = new Ransize('size2', {
     pattern: true,
-    value: [2, 1.3] // Default is [1, 1.2, 1.4, 1.6, 1.8, 2]
+    value: [2, 1.3] // Default is [1, 1.4, 1.8, 2.2, 1.8, 1.4, 1]
 }).apply();</code></pre>
 		</div>
 		<div id="size7" class="result">TTTTTTTTTTTTTTTTTTTTTT TTTTTTTTTTTTTTTTTTTTTT TTTTTTTTTTTTTTTTTTTTTT
@@ -85,10 +85,21 @@
 	<div class="container">
 		<div class="code">
 			<pre><code class="language-js line-numbers">var random = new RanSize('random', {
-    colors: true // Default is false
+    colors: 'random' // Default is ''
 }).apply();</code></pre>
 		</div>
 		<div id="size4" class="result">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque et eaque
+			distinctio at eius
+			voluptas, suscipit repellat sequi aut.</div>
+	</div>
+
+	<div class="container">
+		<div class="code">
+			<pre><code class="language-js line-numbers">var random = new RanSize('random', {
+    colors: ['red', 'blue'] // Default is ''
+}).apply();</code></pre>
+		</div>
+		<div id="size9" class="result">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque et eaque
 			distinctio at eius
 			voluptas, suscipit repellat sequi aut.</div>
 	</div>
@@ -123,7 +134,7 @@
     max: 2.5,
     pattern: true,
     value: [2.5, 1.5], // <= has the first priority for font-size
-    colors: true,
+    colors: 'random',
     rotate: true,
     class: 'all'
 }).apply();</code></pre>
